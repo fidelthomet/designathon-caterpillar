@@ -12,7 +12,7 @@
     "d3-shape": "^1.2.0",
     "lodash.debounce": "^4.0.8",
     "svg-path-properties": "^0.4.4",
-    "three": "^0.95.0",
+    "three": "github:fidelthomet/three.js",
     "vue": "^2.5.16"
   },
   "devDependencies": {
