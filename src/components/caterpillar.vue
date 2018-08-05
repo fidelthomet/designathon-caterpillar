@@ -127,7 +127,6 @@ export default {
       if (resized) {
         this.lineCount = Math.floor(length * options.density)
         this.resized = false
-        console.log(this.lineCount)
       }
       return mappable(this.lineCount).map(i => {
         const anchorOffset = length / this.lineCount * i
