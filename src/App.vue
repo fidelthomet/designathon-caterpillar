@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Caterpillar from './components/Caterpillar.vue'
+import Caterpillar from './components/caterpillar.vue'
 
 export default {
   components: {
