@@ -1,7 +1,7 @@
 <template>
   <div
-    ref="worm"
-    class="Worm">
+    ref="caterpillar"
+    class="Caterpillar">
     <canvas
       ref="canvas"
       :width="width"
@@ -77,7 +77,7 @@ export default {
     },
     updateDimensions () {
       const { $refs } = this
-      const rect = $refs.worm.getBoundingClientRect()
+      const rect = $refs.caterpillar.getBoundingClientRect()
       this.width = rect.width
       this.height = rect.height
       this.resized = true
@@ -196,7 +196,7 @@ export default {
 </script>
 
 <style scoped>
-.Worm {
+.Caterpillar {
   position: fixed;
   width: 100vw;
   height: 100vh;

@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <Worm/>
+    <Caterpillar/>
   </div>
 </template>
 
 <script>
-import Worm from './components/Worm.vue'
+import Caterpillar from './components/Caterpillar.vue'
 
 export default {
-  name: 'app',
   components: {
-    Worm
+    Caterpillar
   }
 }
 </script>
